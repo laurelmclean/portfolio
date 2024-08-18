@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.css";
 
 export default function About() {
     return (
@@ -24,7 +25,7 @@ export default function About() {
                     <img
                         className="image"
                         alt="headshot"
-                        src="./headshot.svg"
+                        src="/images/headshot.jpg"
                     />
                 </div>
             </div>
