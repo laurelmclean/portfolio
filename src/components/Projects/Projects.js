@@ -11,9 +11,7 @@ export default function Projects() {
                         Projects
                     </h1>
                     <p className="projects-description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-                        facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-                        fuga dolore.
+                        These are some projects!
                     </p>
                 </div>
                 <div className="projects-grid">
@@ -29,9 +27,6 @@ export default function Projects() {
                                     src={project.image}
                                 />
                                 <div className="project-info">
-                                    <h2 className="project-subtitle">
-                                        {project.subtitle}
-                                    </h2>
                                     <h1 className="project-title">
                                         {project.title}
                                     </h1>
