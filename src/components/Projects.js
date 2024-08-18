@@ -1,5 +1,5 @@
 import React from "react";
-// import { projects } from "../data";
+import { projects } from "../data";
 
 export default function Projects() {
     return (
@@ -15,7 +15,7 @@ export default function Projects() {
                         fuga dolore.
                     </p>
                 </div>
-                {/* <div className="projects-grid">
+                <div className="projects-grid">
                     {projects.map((project) => (
                         <a
                             href={project.link}
@@ -23,7 +23,7 @@ export default function Projects() {
                             className="project-item">
                             <div className="project-card">
                                 <img
-                                    alt="gallery"
+                                    alt="project"
                                     className="project-image"
                                     src={project.image}
                                 />
@@ -39,7 +39,7 @@ export default function Projects() {
                             </div>
                         </a>
                     ))}
-                </div> */}
+                </div>
             </div>
         </section>
     );
