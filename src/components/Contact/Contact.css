@@ -1,0 +1,21 @@
+.contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-buttons {
+    text-align: center;
+    /* display: flex;
+    gap: 15px; */
+}
+
+.contact-buttons a img {
+    width: 90px;
+    height: 90px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.contact-buttons a:hover img {
+    transform: scale(1.1);
+    filter: brightness(0) saturate(100%) invert(52%) sepia(40%) saturate(2198%) hue-rotate(93deg) brightness(92%) contrast(90%);
+}
