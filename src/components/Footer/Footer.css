@@ -1,12 +1,8 @@
 .footer {
     width: 100%;
-    color: white;
     padding: 1em;
     margin-top: 4em;
-}
-
-.footer a {
-    color: white;
+    text-align: center;
 }
 
 /* Media query for small screens */

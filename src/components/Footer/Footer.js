@@ -6,7 +6,7 @@ export default function Footer() {
 
     return (
         <div className="footer">
-            <p>Laurel McLean - Webpage Design - Copyright {dateObj.getFullYear()}</p>
+            <p>Laurel McLean © {dateObj.getFullYear()}</p>
         </div>
     );
 }
