@@ -63,3 +63,31 @@ export const projects = [
         link: "https://laurelstweetgenerator.onrender.com/",
     },
 ];
+
+export const libraries = [
+   {
+        title: "cash-register",
+        description:
+            "cash-register is a simple JavaScript module that helps you calculate and break down change owed after a transaction. It is designed with Canadian currency denominations in mind, considering the absence of pennies in Canada.",
+        link: "https://www.npmjs.com/package/cash-register",
+    },
+    {
+        title: "ordinal-suffix-lib",
+        description:
+            "The ordinalSuffix function is a utility function that takes a numeric input and returns its ordinal suffix (e.g., 'st' for 1, 'nd' for 2, 'rd' for 3, and 'th' for all other numbers).",
+        link: "https://www.npmjs.com/package/ordinal-suffix-lib",
+    },
+    {
+        title: "dately-lib",
+        description:
+            "Dately provides a versatile and user-friendly way to work with dates, offering functions to format dates in various ways and determine their relation to the present time.",
+        link: "https://www.npmjs.com/package/dately-lib",
+    },
+    {
+        title: "stringlib.js",
+        description:
+            "Stringlib.js is a collection of utility functions for manipulating strings in various formats, such as capitalization, removing spaces, and transforming strings into different naming conventions.",
+        image: "/images/music.png",
+        link: "https://www.npmjs.com/package/stringlib.js",
+    },
+];
