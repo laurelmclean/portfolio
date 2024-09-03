@@ -11,14 +11,14 @@ export default function Navbar() {
                     </a>
                 </a>
                 <nav className="navbar-nav">
+                    <a href="#about">
+                        About
+                    </a>
                     <a href="#projects">
                         Projects
                     </a>
-                    <a href="#skills">
-                        Skills
-                    </a>
-                    <a href="#about">
-                        About
+                    <a href="#contact">
+                        Contact
                     </a>
                 </nav>
             </div>

@@ -4,7 +4,7 @@ import "./Contact.css";
 export default function Contact() {
 
     return (
-        <div className="contact">
+        <section id="contact">
             <h1 className="contact-header">
                 Get in Touch
             </h1>
@@ -12,6 +12,6 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/laurelamclean/"><img src="/images/linkedin.png" alt="LinkedIn" /></a>
                 <a href="https://github.com/laurelmclean"><img src="/images/ghicon.png" alt="Github" /></a>
             </div>
-        </div>
+        </section>
     );
 }

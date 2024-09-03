@@ -12,7 +12,11 @@ export default function About() {
                     </h1>
                     <p className="lead-text">
                     I'm a software developer based in Calgary, who transitioned from a background in journalism and communications to the world of coding in 2022. 
-                    Currently a student at Dominican University of California (graduating December 2024) and interning at Shopify, I'm passionate about using my diverse skillset to craft innovative solutions.                    </p>
+                    Currently a student at Dominican University of California (graduating December 2024) and interning at Shopify, I'm passionate about using my diverse skillset to craft innovative solutions.                   
+                        Languages: HTML, CSS, JavaScript, Typescript, Ruby, Python, SQL, GraphQL
+                        Libraries/Frameworks: React, Rails, Bootstrap, Flask, Node.js, Express.js
+                        Tools: Git, GitHub, VSCode, Figma, Splunk, Observe, BigQuery
+                    </p>
                     <div className="button-container">
                         <a
                             href="#projects"
