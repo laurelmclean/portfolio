@@ -12,10 +12,7 @@
 .projects-title {
     font-size: 2.5rem;
     margin-bottom: 10px;
-}
-
-.projects-description {
-    font-size: 1.25rem;
+    color: #4CAA75;
 }
 
 .projects-grid {

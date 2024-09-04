@@ -1,16 +1,23 @@
 #about {
-    padding: 20px 10px;
+    min-height: 100vh;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #4CAA75;
+    text-align: center;
 }
 
 .container {
+    padding: 20px 10px;
     display: flex;
-    margin: 0 auto;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 768px) {
@@ -63,23 +70,6 @@
 .button-container {
     display: flex;
     justify-content: center;
-}
-
-.button {
-    color: white;
-    border: none;
-    padding: 8px 24px;
-    border-radius: 8px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.button-primary {
-    background-color: #4CAA75;
-}
-
-.button-primary:hover {
-    background-color: #387c55;
 }
 
 .right-column {

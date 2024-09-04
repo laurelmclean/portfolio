@@ -8,11 +8,8 @@ export default function Projects() {
             <div className="projects-container">
                 <div className="projects-header">
                     <h1 className="projects-title">
-                        Projects
+                        Featured Projects
                     </h1>
-                    <p className="projects-description">
-                        These are some projects!
-                    </p>
                 </div>
                 <div className="projects-grid">
                     {projects.map((project) => (
