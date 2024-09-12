@@ -6,7 +6,7 @@ export default function Navbar() {
         <header className="nav">
             <div className="navbar-container">
                 <div className="navbar-title">
-                    <a href="#about" className="navbar-title-link">
+                    <a href="#header" className="navbar-title-link">
                         Laurel McLean
                     </a>
                 </div>
@@ -22,8 +22,12 @@ export default function Navbar() {
                     </a>
                 </nav>
                 <nav className="navbar-social">
-                    <a href="https://www.linkedin.com/in/laurelamclean/"><img width='30px' src="/images/linkedin.png" alt="LinkedIn" /></a>
-                    <a href="https://github.com/laurelmclean"><img width='30px' src="/images/ghicon.png" alt="Github" /></a>
+                    <a href="https://www.linkedin.com/in/laurelamclean/" target="_blank" rel="noreferrer">
+                        <img className="linkedin-icon" width='30px' src="/images/linkedin.png" alt="LinkedIn" />
+                    </a>
+                    <a href="https://github.com/laurelmclean" target="_blank" rel="noreferrer">
+                        <img className="github-icon" width='30px' src="/images/ghicon.png" alt="Github" />
+                    </a>
                 </nav>
             </div>
         </header>

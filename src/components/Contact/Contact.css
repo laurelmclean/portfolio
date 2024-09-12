@@ -5,9 +5,10 @@
     text-align: center;
 }
 .contact-buttons {
-    text-align: center;
-    /* display: flex;
-    gap: 15px; */
+    justify-content: center;
+    display: flex;
+    gap: 1em;
+    padding-top: 3em
 }
 
 .contact-buttons a img {
@@ -18,5 +19,12 @@
 
 .contact-buttons a:hover img {
     transform: scale(1.1);
-    filter: brightness(0) saturate(100%) invert(52%) sepia(40%) saturate(2198%) hue-rotate(93deg) brightness(92%) contrast(90%);
+}
+
+.contact-buttons a img.linkedin-icon:hover {
+    content: url('../../../public/images/linkedin-green.png');
+}
+
+.contact-buttons a img.github-icon:hover {
+    content: url('../../../public/images/ghicon-green.png');
 }

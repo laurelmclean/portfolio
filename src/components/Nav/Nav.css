@@ -65,3 +65,14 @@
     color: #4CAA75;
 }
 
+.navbar-social {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-social a img.linkedin-icon:hover {
+    content: url('../../../public/images/linkedin-green.png');}
+
+.navbar-social a img.github-icon:hover {
+    content: url('../../../public/images/ghicon-green.png');
+}

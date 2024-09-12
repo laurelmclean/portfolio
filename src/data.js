@@ -21,13 +21,6 @@ export const projects = [
         link: "https://laurelmclean.github.io/redux-tetris/",
     },
     {
-        title: "NPM Packages",
-        description:
-            "Check out the public npm packages I've published!",
-        image: "./project.jpg",
-        link: "https://www.npmjs.com/settings/laurelmclean1/packages",
-    },
-    {
         title: "US Honey Production Visualization",
         description:
             "This project showcases a data visualization that presents the honey production, demand, and supply across different states of America from 1995 - 2021. The visualization allows users to select a year and view statistics per state on a map, providing valuable insights into honey production trends and patterns.",
