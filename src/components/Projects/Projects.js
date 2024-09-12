@@ -24,10 +24,12 @@ export default function Projects() {
                                     src={project.image}
                                 />
                                 <div className="project-info">
+                                    <h2 className="project-category">{project.category}</h2>
                                     <h1 className="project-title">
                                         {project.title}
                                     </h1>
                                     <p className="project-description">{project.description}</p>
+                                    <h2 className="project-language">{project.language}</h2>
                                 </div>
                             </div>
                         </a>
