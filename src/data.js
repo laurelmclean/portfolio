@@ -11,7 +11,7 @@ export const projects = [
     {
         title: "Drink Discover",
         category: "Front End",
-        language: "React, Redux",
+        language: "React | Redux",
         description:
             "Drink Discover is a React and Redux-based web application that allows users to browse a variety of drinks, search for specific ones, and discover random drinks. Users can view details of each drink, including ingredients and instructions on how to make them. Additionally, the application supports a favorites feature, allowing users to save their preferred drinks for quick access.",
         image: "/images/drinkdiscover.png",
@@ -20,7 +20,7 @@ export const projects = [
     {
         title: "Candyland Tetris",
         category: "Game Development",
-        language: "React, Redux",
+        language: "React | Redux",
         description:
             "Welcome to Candyland Tetris - a whimsical twist on the classic arcade game, built with React and Redux.",
         image: "/images/candylandtetris.png",
@@ -29,7 +29,7 @@ export const projects = [
     {
         title: "US Honey Production Visualization",
         category: "Data Vizualization",
-        language: "D3",
+        language: "Javascript | D3",
         description:
             "This project showcases a data visualization that presents the honey production, demand, and supply across different states of America from 1995 - 2021. The visualization allows users to select a year and view statistics per state on a map, providing valuable insights into honey production trends and patterns.",
         image: "/images/honey.png",
@@ -42,6 +42,7 @@ export const projects = [
         description:
             "Laurel's Bubble Tea Shop, that allows users to view the bubble tea menu, add items to order, and checkout. The project was built with React, utilizing components and state.It implements best practices for responsiveness and accessibility.",
         image: "/images/bubbletea.png",
+        github: "https://github.com/laurelmclean/bubble-tea-shop",
         link: "https://laurelmclean.github.io/bubble-tea-shop",
     },
     {
@@ -56,10 +57,11 @@ export const projects = [
     {
         title: "Discover Music",
         category: "Full Stack",
-        language: "Python",
+        language: "Python | Flask | SQLAlchemy | WTForms | Render",
         description:
-            "A concert app that allows users to create an account and login to follow their favourite artists, see any upcoming concerts that artists are playing, and add the event to their list of attending/upcoming events. Built with a framework of Flask, SQLAlchemy, and WTForms.",
+            "A concert app that allows users to create an account and login to follow their favourite artists, see any upcoming concerts that artists are playing, and add the event to their list of attending/upcoming events.",
         image: "/images/discovermusic.png",
+        github: "https://github.com/laurelmclean/discover-music-database",
         link: "https://discovermusic.onrender.com/",
     },
 ];

@@ -18,6 +18,8 @@ export default function Libraries() {
                     {libraries.map((library) => (
                         <a
                             href={library.link}
+                            target="_blank" 
+                            rel="noreferrer"
                             key={library.link}
                             className="library-item">
                             <div className="library-card">

@@ -56,5 +56,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 0px;
+}
+
+.project-category {
+    font-size: 1em;
+    color: #4CAA75;
+    font-weight: lighter;
+}
+
+.project-language {
+    font-size: 1em;
+    font-weight: lighter;
 }

@@ -2,7 +2,7 @@
     padding: 20px 10px;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: flex-start;
     min-height: 100vh;
 }
 
@@ -23,29 +23,28 @@
     color: #4CAA75;
 }
 
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row;
-    }
+
+.container {
+    flex-direction: row;
 }
+
 
 .button-container {
     display: flex;
+    gap: 2em;
+    justify-content: flex-start;
 }
 
-.button {
+.button-primary {
     color: white;
     border: none;
     padding: 8px 24px;
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
-}
-
-.button-primary {
     background-color: #4CAA75;
 }
 
 .button-primary:hover {
-    background-color: #387c55;
+    background-color: #3d895e;
 }

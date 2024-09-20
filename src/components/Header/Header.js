@@ -20,6 +20,11 @@ export default function Header() {
                         className="button button-primary">
                         View my work
                     </a>
+                    <a
+                        href="#contact"
+                        className="button button-primary">
+                        Get in touch
+                    </a>
                 </div>
                 </div>
         </section>
