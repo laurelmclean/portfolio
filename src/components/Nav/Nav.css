@@ -7,33 +7,23 @@
 
 .navbar-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
-    flex-direction: column;
     align-items: center;
     margin: 0 auto;
 }
 
-@media (min-width: 768px) {
-    .navbar-container {
-        flex-direction: row;
-    }
-}
 
 .navbar-title {
     font-weight: 500;
     margin-bottom: 16px;
+    margin-bottom: 0;
 }
 
 .navbar-title a {
     color: white;
     text-decoration: none;
-}
-
-@media (min-width: 768px) {
-    .navbar-title {
-        margin-bottom: 0;
-    }
 }
 
 .navbar-title-link {

@@ -48,3 +48,32 @@
 .button-primary:hover {
     background-color: #3d895e;
 }
+
+@media only screen and (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .header-container {
+        margin-left: 0;
+    }
+
+    .header-font {
+        font-size: 3rem;
+    }
+
+    .small-font {
+        font-size: 1.5rem;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+    }
+}

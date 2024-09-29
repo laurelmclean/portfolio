@@ -13,8 +13,7 @@ export default function Projects() {
                 </div>
                 <div className="projects-grid">
                     {projects.map((project) => (
-                        <a
-                            href={project.link}
+                        <div
                             key={project.image}
                             className="project-item">
                             <div className="project-card">
@@ -30,9 +29,13 @@ export default function Projects() {
                                     </h1>
                                     <p className="project-description">{project.description}</p>
                                     <h2 className="project-language">{project.language}</h2>
+                                    <div className="project-link-container">
+                                        <a href={project.link} target="_blank" rel="noreferrer"><img className="gh-icon" src="/images/ghicon.png" alt="github" /></a>
+                                        <a href="https://www.linkedin.com/in/laurelamclean/" target="_blank" rel="noreferrer"><img className="linkedin-icon" src="/images/linkedin.png" alt="LinkedIn" /></a>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     ))}
                 </div>
             </div>

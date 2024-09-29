@@ -58,4 +58,30 @@ h3 {
     object-position: center;
 }
 
+.skills-heading {
+    color: #4CAA75;
+}
 
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        }
+    
+    .right-column {
+        width: 100%;
+    }
+
+    .image {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+    .left-column > h2, h3 {
+        justify-content: center;
+    }
+}

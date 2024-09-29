@@ -19,9 +19,9 @@ export default function About() {
     
                     </p>
                     <p className="skills">
-                        Languages: HTML, CSS, JavaScript, Typescript, Ruby, Python, SQL, GraphQL
-                        Libraries/Frameworks: React, Rails, Bootstrap, Flask, Node.js, Express.js
-                        Tools: Git, GitHub, VSCode, Figma, Splunk, Observe, BigQuery
+                        <strong className="skills-heading">Languages:</strong> HTML, CSS, JavaScript, Typescript, Ruby, Python, SQL, GraphQL
+                        <br /><strong className="skills-heading">Libraries/Frameworks:</strong> React, Rails, Bootstrap, Flask, Node.js, Express.js
+                        <br /><strong className="skills-heading">Tools:</strong> Git, GitHub, VSCode, Figma, Splunk, Observe, BigQuery
                     </p>
                 </div>
                 <div className="right-column">

@@ -69,3 +69,15 @@
     font-size: 1em;
     font-weight: lighter;
 }
+
+@media only screen and (max-width: 768px) {
+    .project-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-item:nth-child(even) .project-card {
+        flex-direction: column;
+    }
+
+}
