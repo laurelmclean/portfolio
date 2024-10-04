@@ -6,7 +6,8 @@ export const projects = [
         description:
             "RapidLink is a simple URL shortener service and QR code generator written in Go. It provides a minimalistic web interface for shortening URLs and includes QR code generation for shortened links.",
         image: "/images/rapidlink.png",
-        link: "https://github.com/laurelmclean/rapidlink",
+        gh: "https://github.com/laurelmclean/rapidlink",
+        link: "https://rapidlink-63he.onrender.com",
     },
     {
         title: "Drink Discover",
@@ -15,6 +16,7 @@ export const projects = [
         description:
             "Drink Discover is a React and Redux-based web application that allows users to browse a variety of drinks, search for specific ones, and discover random drinks. Users can view details of each drink, including ingredients and instructions on how to make them. Additionally, the application supports a favorites feature, allowing users to save their preferred drinks for quick access.",
         image: "/images/drinkdiscover.png",
+        gh: "https://github.com/laurelmclean/drink-discover-app",
         link: "https://laurelmclean.github.io/drink-discover-app/",
     },
     {
@@ -24,6 +26,7 @@ export const projects = [
         description:
             "Welcome to Candyland Tetris - a whimsical twist on the classic arcade game, built with React and Redux.",
         image: "/images/candylandtetris.png",
+        gh: "https://github.com/laurelmclean/redux-tetris",
         link: "https://laurelmclean.github.io/redux-tetris/",
     },
     {
@@ -33,7 +36,8 @@ export const projects = [
         description:
             "This project showcases a data visualization that presents the honey production, demand, and supply across different states of America from 1995 - 2021. The visualization allows users to select a year and view statistics per state on a map, providing valuable insights into honey production trends and patterns.",
         image: "/images/honey.png",
-        link: "https://github.com/laurelmclean/ACS-4310-honey-data",
+        gh: "https://github.com/laurelmclean/ACS-4310-honey-data",
+        link: "https://laurelmclean.github.io/honey-data-visualization/",
     },
     {
         title: "Bubble Tea Shop",
@@ -52,6 +56,7 @@ export const projects = [
         description:
             "Laurel's Bubble Tea Shop, that allows users to view the bubble tea menu, add items to order, and checkout. The project was built with React, utilizing components and state.It implements best practices for responsiveness and accessibility.",
         image: "/images/music.png",
+        gh: "https://github.com/laurelmclean/music-pygame",
         link: "https://replit.com/@laurelmclean/music-pygame",
     },
     {

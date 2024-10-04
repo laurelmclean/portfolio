@@ -30,8 +30,8 @@ export default function Projects() {
                                     <p className="project-description">{project.description}</p>
                                     <h2 className="project-language">{project.language}</h2>
                                     <div className="project-link-container">
-                                        <a href={project.link} target="_blank" rel="noreferrer"><img className="gh-icon" src="/images/ghicon.png" alt="github" /></a>
-                                        <a href="https://www.linkedin.com/in/laurelamclean/" target="_blank" rel="noreferrer"><img className="linkedin-icon" src="/images/linkedin.png" alt="LinkedIn" /></a>
+                                        <a href={project.gh} target="_blank" rel="noreferrer"><img className="gh-icon" src="/images/ghicon.png" alt="github" /></a>
+                                        <a href={project.link} target="_blank" rel="noreferrer"><img className="linkedin-icon" src="/images/linkedin.png" alt="LinkedIn" /></a>
                                     </div>
                                 </div>
                             </div>
