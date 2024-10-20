@@ -15,7 +15,7 @@ export default function About() {
                     <h3>Software Developer</h3>
                     <p className="lead-text">
                     I'm a software developer based in Calgary, who transitioned from a background in journalism and communications to the world of coding in 2022. 
-                    Currently a student at Dominican University of California (graduating December 2024) and interning at Shopify, I'm passionate about using my diverse skillset to craft innovative solutions.                   
+                    Currently an Applied Computer Science student at Dominican University of California (graduating December 2024) and interning at Shopify, I'm passionate about using my diverse skillset to craft innovative solutions.                   
     
                     </p>
                     <p className="skills">

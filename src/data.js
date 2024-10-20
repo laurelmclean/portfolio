@@ -6,7 +6,7 @@ export const projects = [
         description:
             "RapidLink is a simple URL shortener service and QR code generator written in Go. It provides a minimalistic web interface for shortening URLs and includes QR code generation for shortened links.",
         image: "/images/rapidlink.png",
-        gh: "https://github.com/laurelmclean/rapidlink",
+        github: "https://github.com/laurelmclean/rapidlink",
         link: "https://rapidlink-63he.onrender.com",
     },
     {
@@ -16,7 +16,7 @@ export const projects = [
         description:
             "Drink Discover is a React and Redux-based web application that allows users to browse a variety of drinks, search for specific ones, and discover random drinks. Users can view details of each drink, including ingredients and instructions on how to make them. Additionally, the application supports a favorites feature, allowing users to save their preferred drinks for quick access.",
         image: "/images/drinkdiscover.png",
-        gh: "https://github.com/laurelmclean/drink-discover-app",
+        github: "https://github.com/laurelmclean/drink-discover-app",
         link: "https://laurelmclean.github.io/drink-discover-app/",
     },
     {
@@ -26,7 +26,7 @@ export const projects = [
         description:
             "Welcome to Candyland Tetris - a whimsical twist on the classic arcade game, built with React and Redux.",
         image: "/images/candylandtetris.png",
-        gh: "https://github.com/laurelmclean/redux-tetris",
+        github: "https://github.com/laurelmclean/redux-tetris",
         link: "https://laurelmclean.github.io/redux-tetris/",
     },
     {
@@ -36,7 +36,7 @@ export const projects = [
         description:
             "This project showcases a data visualization that presents the honey production, demand, and supply across different states of America from 1995 - 2021. The visualization allows users to select a year and view statistics per state on a map, providing valuable insights into honey production trends and patterns.",
         image: "/images/honey.png",
-        gh: "https://github.com/laurelmclean/ACS-4310-honey-data",
+        github: "https://github.com/laurelmclean/ACS-4310-honey-data",
         link: "https://laurelmclean.github.io/honey-data-visualization/",
     },
     {
@@ -44,7 +44,7 @@ export const projects = [
         category: "Front End",
         language: "React",
         description:
-            "Laurel's Bubble Tea Shop, that allows users to view the bubble tea menu, add items to order, and checkout. The project was built with React, utilizing components and state.It implements best practices for responsiveness and accessibility.",
+            "Laurel's Bubble Tea Shop allows users to view the bubble tea menu, add items to order, and checkout. The project was built with React, utilizing components and state.It implements best practices for responsiveness and accessibility.",
         image: "/images/bubbletea.png",
         github: "https://github.com/laurelmclean/bubble-tea-shop",
         link: "https://laurelmclean.github.io/bubble-tea-shop",
@@ -56,8 +56,18 @@ export const projects = [
         description:
             "This is a music-themed game based on the Calgary band I Am the Mountain. As a player, you take on the role of different band members, collect their instruments, avoid boos, and progress through multiple levels.",
         image: "/images/game.png",
-        gh: "https://github.com/laurelmclean/music-pygame",
+        github: "https://github.com/laurelmclean/music-pygame",
         link: "https://replit.com/@laurelmclean/music-pygame",
+    },
+    {
+        title: "Stopwatch App",
+        category: "Front End",
+        language: "React",
+        description:
+            "This is a simple React-based Stopwatch application that allows users to start, stop, reset a timer, and record laps during the timer’s operation.",
+        image: "/images/stopwatch.png",
+        github: "https://github.com/laurelmclean/stopwatch",
+        link: "https://laurelmclean.github.io/stopwatch/",
     },
     {
         title: "Discover Music",

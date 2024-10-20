@@ -65,7 +65,9 @@
     background-color: #4CAA75;
     padding: 8px 16px;
     border-radius: 8px;
-    display: inline-block;
+    display: inline;
+    max-width: max-content;
+    margin: 0;
 }
 
 .project-language {
@@ -96,8 +98,8 @@
     height: 30px;
 }
 
-.project-link-container a img.linkedin-icon:hover {
-    content: url('../../../public/images/linkedin-green.png');
+.project-link-container a img.website-icon:hover {
+    content: url('../../../public/images/website-green.png');
 }
 
 .project-link-container a img.gh-icon:hover {

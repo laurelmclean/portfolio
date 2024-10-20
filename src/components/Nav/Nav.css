@@ -75,4 +75,12 @@
     .navbar-title {
         display: none;
     }
+
+    .navbar-nav {
+        border-left: none;
+    }
+
+    .navbar-container {
+        padding-left: 0px;
+    }
 }
