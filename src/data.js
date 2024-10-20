@@ -2,7 +2,7 @@ export const projects = [
     {
         title: "RapidLink",
         category: "Full Stack",
-        language: "Go",
+        language: "Go | Render",
         description:
             "RapidLink is a simple URL shortener service and QR code generator written in Go. It provides a minimalistic web interface for shortening URLs and includes QR code generation for shortened links.",
         image: "/images/rapidlink.png",
@@ -50,12 +50,12 @@ export const projects = [
         link: "https://laurelmclean.github.io/bubble-tea-shop",
     },
     {
-        title: "Music Pygame",
+        title: "I Am The Mountain Pygame",
         category: "Game Development",
-        language: "Python",
+        language: "Python | Pygame",
         description:
-            "Laurel's Bubble Tea Shop, that allows users to view the bubble tea menu, add items to order, and checkout. The project was built with React, utilizing components and state.It implements best practices for responsiveness and accessibility.",
-        image: "/images/music.png",
+            "This is a music-themed game based on the Calgary band I Am the Mountain. As a player, you take on the role of different band members, collect their instruments, avoid boos, and progress through multiple levels.",
+        image: "/images/game.png",
         gh: "https://github.com/laurelmclean/music-pygame",
         link: "https://replit.com/@laurelmclean/music-pygame",
     },
