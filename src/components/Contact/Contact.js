@@ -9,8 +9,8 @@ export default function Contact() {
                 Get in Touch
             </h1>
             <div className="contact-buttons">
-                <a href="https://www.linkedin.com/in/laurelamclean/" target="_blank" rel="noreferrer"><img className="linkedin-icon" src="/images/linkedin.png" alt="LinkedIn" /></a>
-                <a href="https://github.com/laurelmclean" target="_blank" rel="noreferrer"><img className="github-icon" src="/images/ghicon.png" alt="Github" /></a>
+                <a href="https://www.linkedin.com/in/laurelamclean/" target="_blank" rel="noreferrer"><img className="linkedin-icon" src={`${process.env.PUBLIC_URL}/images/linkedin.png`} alt="LinkedIn" /></a>
+                <a href="https://github.com/laurelmclean" target="_blank" rel="noreferrer"><img className="github-icon" src={`${process.env.PUBLIC_URL}/images/ghicon.png`} alt="Github" /></a>
             </div>
         </section>
     );

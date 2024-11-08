@@ -20,7 +20,7 @@ export default function Projects() {
                                 <img
                                     alt="project"
                                     className="project-image"
-                                    src={project.image}
+                                    src={`${process.env.PUBLIC_URL}${project.image}`}
                                 />
                                 <div className="project-info">
                                     <h2 className="project-category">{project.category}</h2>
@@ -30,8 +30,8 @@ export default function Projects() {
                                     <p className="project-description">{project.description}</p>
                                     <h2 className="project-language">{project.language}</h2>
                                     <div className="project-link-container">
-                                        <a href={project.github} target="_blank" rel="noreferrer"><img className="gh-icon" src="/images/ghicon.png" alt="github" /></a>
-                                        <a href={project.link} target="_blank" rel="noreferrer"><img className="website-icon" src="/images/website.png" alt="Website" /></a>
+                                        <a href={project.github} target="_blank" rel="noreferrer"><img className="gh-icon" src={`${process.env.PUBLIC_URL}/images/ghicon.png`} alt="github" /></a>
+                                        <a href={project.link} target="_blank" rel="noreferrer"><img className="website-icon" src={`${process.env.PUBLIC_URL}/images/website.png`} alt="Website" /></a>
                                     </div>
                                 </div>
                             </div>

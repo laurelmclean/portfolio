@@ -28,7 +28,7 @@ export default function About() {
                     <img
                         className="image"
                         alt="headshot"
-                        src="/images/headshot.jpg"
+                        src={`${process.env.PUBLIC_URL}/images/headshot.jpg`}
                     />
                 </div>
             </div>

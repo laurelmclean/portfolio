@@ -23,10 +23,10 @@ export default function Navbar() {
                 </nav>
                 <nav className="navbar-social">
                     <a href="https://www.linkedin.com/in/laurelamclean/" target="_blank" rel="noreferrer">
-                        <img className="linkedin-icon" width='30px' src="/images/linkedin.png" alt="LinkedIn" />
+                        <img className="linkedin-icon" width='30px' src={`${process.env.PUBLIC_URL}/images/linkedin.png`} alt="LinkedIn" />
                     </a>
                     <a href="https://github.com/laurelmclean" target="_blank" rel="noreferrer">
-                        <img className="github-icon" width='30px' src="/images/ghicon.png" alt="Github" />
+                        <img className="github-icon" width='30px' src={`${process.env.PUBLIC_URL}/images/ghicon.png`} alt="Github" />
                     </a>
                 </nav>
             </div>
