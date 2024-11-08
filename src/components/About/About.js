@@ -18,11 +18,11 @@ export default function About() {
                     Currently an Applied Computer Science student at Dominican University of California (graduating December 2024) and interning at Shopify, I'm passionate about using my diverse skillset to craft innovative solutions.                   
     
                     </p>
-                    <p className="skills">
-                        <strong className="skills-heading">Languages:</strong> HTML, CSS, JavaScript, Typescript, Ruby, Python, SQL, GraphQL
-                        <br /><strong className="skills-heading">Libraries/Frameworks:</strong> React, Rails, Bootstrap, Flask, Node.js, Express.js
-                        <br /><strong className="skills-heading">Tools:</strong> Git, GitHub, VSCode, Figma, Splunk, Observe, BigQuery
-                    </p>
+                    <ul className="skills">
+                        <li><strong className="skills-heading">Languages:</strong> HTML, CSS, JavaScript, Typescript, Ruby, Python, SQL, GraphQL</li>
+                        <li><strong className="skills-heading">Libraries/Frameworks:</strong> React, Rails, Bootstrap, Flask, Node.js, Express.js</li>
+                        <li><strong className="skills-heading">Tools:</strong> Git, GitHub, VSCode, Figma, Splunk, Observe, BigQuery</li>
+                    </ul>
                 </div>
                 <div className="right-column">
                     <img

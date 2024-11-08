@@ -44,7 +44,7 @@ export const projects = [
         category: "Front End",
         language: "React",
         description:
-            "Laurel's Bubble Tea Shop allows users to view the bubble tea menu, add items to order, and checkout. The project was built with React, utilizing components and state.It implements best practices for responsiveness and accessibility.",
+            "Laurel's Bubble Tea Shop allows users to view the bubble tea menu, add items to order, and checkout. The project was built with React, utilizing components and state.",
         image: "/images/bubbletea.png",
         github: "https://github.com/laurelmclean/bubble-tea-shop",
         link: "https://laurelmclean.github.io/bubble-tea-shop",
@@ -74,7 +74,7 @@ export const projects = [
         category: "Full Stack",
         language: "Python | Flask | SQLAlchemy | WTForms | Render",
         description:
-            "A concert app that allows users to create an account and login to follow their favourite artists, see any upcoming concerts that artists are playing, and add the event to their list of attending/upcoming events.",
+            "Discover Music is a concert app that allows users to create an account and login to follow their favourite artists, see any upcoming concerts that artists are playing, and add the event to their list of attending/upcoming events.",
         image: "/images/discovermusic.png",
         github: "https://github.com/laurelmclean/discover-music-database",
         link: "https://discovermusic.onrender.com/",
