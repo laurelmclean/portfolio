@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/laurelmclean/portfolio/static/css/main.7e27f65a.css",
+    "main.js": "/laurelmclean/portfolio/static/js/main.2df9e7fc.js",
+    "static/js/453.48b3efb7.chunk.js": "/laurelmclean/portfolio/static/js/453.48b3efb7.chunk.js",
+    "index.html": "/laurelmclean/portfolio/index.html",
+    "main.7e27f65a.css.map": "/laurelmclean/portfolio/static/css/main.7e27f65a.css.map",
+    "main.2df9e7fc.js.map": "/laurelmclean/portfolio/static/js/main.2df9e7fc.js.map",
+    "453.48b3efb7.chunk.js.map": "/laurelmclean/portfolio/static/js/453.48b3efb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e27f65a.css",
+    "static/js/main.2df9e7fc.js"
+  ]
+}
