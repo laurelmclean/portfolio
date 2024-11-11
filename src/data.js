@@ -57,7 +57,7 @@ export const projects = [
             "This is a music-themed game based on the Calgary band I Am the Mountain. As a player, you take on the role of different band members, collect their instruments, avoid boos, and progress through multiple levels.",
         image: "/images/game.png",
         github: "https://github.com/laurelmclean/music-pygame",
-        link: "https://replit.com/@laurelmclean/music-pygame",
+        link: "",
     },
     {
         title: "Stopwatch App",
@@ -77,7 +77,7 @@ export const projects = [
             "Discover Music is a concert app that allows users to create an account and login to follow their favourite artists, see any upcoming concerts that artists are playing, and add the event to their list of attending/upcoming events.",
         image: "/images/discovermusic.png",
         github: "https://github.com/laurelmclean/discover-music-database",
-        link: "https://discovermusic.onrender.com/",
+        link: "",
     },
 ];
 

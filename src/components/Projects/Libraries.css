@@ -37,12 +37,10 @@
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
     min-height: 200px;
 }
 
 .library-card:hover {
-    transform: scale(1.05);
     background-color: #4CAA75;
 }
 
