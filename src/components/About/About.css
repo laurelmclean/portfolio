@@ -82,15 +82,15 @@ h3 {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 0;
+        padding: 2em;
         }
-    
-    .right-column {
-        width: 100%;
-        justify-content: center;
-    }
 
-    .left-column > h2, h3 {
-        justify-content: center;
-    }
+        .right-column {
+            width: 100%;
+        }
+
+        .left-column {
+            padding-right: 0px;
+        }
 }

@@ -9,7 +9,7 @@
 .header-container {
     display: flex;
     flex-direction: column;
-    margin-left: 7em;
+    margin-left: 4em;
 }
 
 .header-font {

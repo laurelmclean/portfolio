@@ -1,7 +1,7 @@
 .libraries-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 4em 4em;
 }
 
 .libraries-header {
@@ -35,9 +35,9 @@
 
 .library-card {
     background-color: #f0f0f0;
-    padding: 20px;
+    padding: 16px;
     border-radius: 10px;
-    min-height: 200px;
+    min-height: 180px;
 }
 
 .library-card:hover {
@@ -46,7 +46,6 @@
 
 .library-description {
     transition: opacity 0.3s ease-in-out;
-    font-size: 1.25rem;
     color: #4CAA75;
 }
 
